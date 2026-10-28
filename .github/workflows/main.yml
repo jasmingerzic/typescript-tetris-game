@@ -1,0 +1,7 @@
+def test_fork_repository():
+    repo = {
+        "name": "test-repo",
+        "fork": True,
+    }
+
+    assert repo["fork"] is True
